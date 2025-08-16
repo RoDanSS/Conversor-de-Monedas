@@ -1,0 +1,64 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(./assets/descarga.jpg) #030728;
+}
+
+#root {
+    width: 100%;
+}
+
+.currency-converter {
+    margin: 0 auto;
+    backdrop-filter: blur(30px);
+    background: rgb(2, 7, 40, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 40px 30px 50px;
+    border-radius: 8px;
+    max-width: 410px;
+}
+
+.currency-converter .converter-title {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.currency-converter .converter-form {
+    margin-top: 45px;
+}
+
+.converter-form .form-group {
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.converter-form .form-group .form-label {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.converter-form .form-group .form-input {
+    outline: none;
+    font-size: 1.1rem;
+    padding: 0 15px;
+    color: #fff;
+    font-weight: 500;
+    min-height: 48px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+}

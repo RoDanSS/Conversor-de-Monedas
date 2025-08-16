@@ -14,7 +14,7 @@ function App() {
             <input type='number' className='form-input' placeholder='0.00' required/>
           </div>
 
-          <div className='form-group'>
+          <div className='form-group form-currency-group'>
             <div className='form-section'>
               <label className='form-label'>de</label>
               <div className="currency-select">
